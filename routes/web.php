@@ -11,9 +11,11 @@
 |
 */
 
-// Route::get('/', function () {
-//     return view('home');
-// });
 
-Route::get('/', 'HomeController@index')->name('home');
+Route::get('/', 'HomeController@home')->name('home');
+
+Route::post('/', 'UserController@store');
+
+
+Route::get('/index', 'HomeController@index')->name('index');
 Route::get('/products', 'ProductController@index')->name('products');
