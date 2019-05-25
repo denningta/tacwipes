@@ -1,2 +1,37 @@
 // this is the place for your components / CSS
 
+.user-brand {
+    font-family: impact;
+    font-size: 300%;
+    font-style: italic;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.impact {
+    font-family: impact;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.impact:hover {
+    text-decoration: none;
+}
+
+.copyright {
+    font-size: 20%
+}
+
+.navbar-hover-light .svg-brand-logo {
+    fill: white;
+}
+
+.navbar-light .navbar-brand, .navbar-hover-light:hover .navbar-brand, .navbar-fixed-light.fixed-top .navbar-brand svg{
+    fill: black;
+}
+
+.navbar-hover-light:hover svg {
+    fill: black;
+}
+
+

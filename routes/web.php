@@ -11,11 +11,24 @@
 |
 */
 
-
-Route::get('/', 'HomeController@home')->name('home');
-
-Route::post('/', 'UserController@store');
+// Uncomment to present "Coming Soon" Page
+// Route::get('/', 'HomeController@home')->name('comingsoon');
 
 
-Route::get('/index', 'HomeController@index')->name('index');
+//Comment below to present "Coming Soon" page only
+Route::post('/newsletter', 'UserController@store');
+
+Route::get('/', 'HomeController@index')->name('index');
+
 Route::get('/products', 'ProductController@index')->name('products');
+Route::get('/products/{product}/detail', 'ProductController@detail')->name('detail');
+
+Route::get('/cart', 'CartController@index')->name('cart.index');
+Route::post('/cart/add', 'CartController@store')->name('cart.add');
+Route::get('/cart/{item}/delete', 'CartController@delete')->name('cart.delete');
+
+Route::get('/checkout', 'PurchaseController@checkout')->name('checkout');
+Route::get('/outofstock', 'PurchaseController@outofstock')->name('outofstock');
+
+Route::get('/about', 'HomeController@about')->name('about');
+
