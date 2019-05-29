@@ -7,7 +7,7 @@
             <div class="col-lg-4 service-column">
               <h2><i class="fas fa-poo m-4"></i></h2>
               <div class="service-text">
-                <h6 class="text-uppercase">Scentless<span class="text-primary">.</span></h6>
+                <h6 class="text-uppercase">Unscented<span class="text-primary">.</span></h6>
                 <p class="text-muted font-weight-light text-sm mb-0">Get Clean. Stay Tactical.</p>
               </div>
             </div>

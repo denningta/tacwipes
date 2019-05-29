@@ -9,13 +9,14 @@
         <div style="background: #000000;" class="item home-full-item">
           <picture class="bg-image">
             <source media="(min-width: 780px)" srcset="/img2/can_black_white_main.png" class="bg-image">
-            <img src="/img2/can_black_brown_main_cropped.png" alt="TacWipes" class="bg-image">
+            <img src="/img2/can_black_white_main_cropped.png" alt="TacWipes" class="bg-image">
           </picture>
           <div class="container-fluid h-100 py-5">
             <div class="row align-items-center h-100">
               <div class="col-lg-8 col-xl-6 mx-auto text-white text-center">
                 <h5 class="text-uppercase text-white mb-4 font-weight-light letter-spacing-5"></h5>
-                <h1 class="mb-4 display-2 font-weight-bold impact">TACWIPES<span class="text-primary">.</span></h1>
+                <h1 class="mb-4 display-2 font-weight-bold impact">TACWIPES</h1>
+                <p class="lead mb-4">Tactical field wipes designed for the warfighter.</p>
                 <p class="lead mb-4">Get Clean. Stay Tactical.</p>
                 <p><a href="/products" class="btn btn-light">Buy Now</a></p>
               </div>

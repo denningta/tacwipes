@@ -13,9 +13,8 @@
           <div class="row">
             <div class="col-xl-6 text-white">
               <h6 class="text-uppercase text-white letter-spacing-5 mb-3">Sorry</h6>
-              <h1 class="display-3 font-weight-bold text-shadow mb-5">We are out of stock!</h1>
-              <p class="text-lg">We are growing rapidly and cannot keep up with the demand.  </p>
-              <p>Sign up below to recieve updates when we TACWIPES become avaliable.  We will make it worth your time.  No Spam.</p>
+              <h1 class="display-3 font-weight-bold text-shadow mb-5">Coming Soon!</h1>
+              <p class="text-lg">We are working hard toward a fall release of this product. Sign up below to be the first to know when TACWIPES becomes avaliable.  We will make it worth your time!  No Spam.</p>
               @include('layouts.newsletter')
             </div>
 
