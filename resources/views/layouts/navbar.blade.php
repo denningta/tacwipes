@@ -5,8 +5,8 @@
 
         @include('layouts.logo')
 
-      TACWIPES
-      
+        TACWIPES
+
     </a> 
     <button type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right">
       <i class="fa fa-bars"></i>

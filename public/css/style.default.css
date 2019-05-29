@@ -16581,7 +16581,7 @@ STYLE SWITCHER FOR DEMO
 }
 
 .user-brand {
-  font-family: impact;
+  font-family: "Anton", sans-serif;
   font-size: 300%;
   font-style: italic;
   color: #ffffff;
@@ -16589,7 +16589,7 @@ STYLE SWITCHER FOR DEMO
 }
 
 .impact {
-  font-family: impact;
+  font-family: "Anton", sans-serif;
   font-style: italic;
   text-decoration: none;
 }

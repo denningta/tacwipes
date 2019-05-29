@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/vendor/nouislider/nouislider.css">
     <!-- Google fonts - Playfair Display-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/fonts/hkgrotesk/stylesheet.css">
     <link rel="stylesheet" href="/fonts/impact/stylesheet.css">
     <!-- owl carousel-->
@@ -20,7 +21,7 @@
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="/css/custom.css">
     <!-- Favicon-->
-    <link rel="shortcut icon" href="/img2/logo_black.png">
+    <link rel="shortcut icon" href="/img2/logo_tab.png">
     <!-- Tweaks for older IEs--><!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
