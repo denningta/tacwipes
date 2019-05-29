@@ -1,11 +1,11 @@
 <!-- Navbar-->
   <div class="container-fluid">  
     <!-- Navbar Header  -->
-    <a href="/" class="navbar-brand user-brand">
+    <a href="/" class="navbar-brand user-brand align-middle">
 
         @include('layouts.logo')
 
-        TACWIPES
+        <span class="align-middle">TACWIPES</span>
 
     </a> 
     <button type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right">
