@@ -1,9 +1,13 @@
 
-This is a {{ $product->packageColor }} {{ $product->name }} with {{ $product->wipeColor }} wipes.
-<br>
-Wipes measure 7 inches x 7 inches.
-<br>
-50 wipes per container.
+<p>This is a {{ $product->packageColor }} {{ $product->name }} with {{ $product->wipeColor }} field wipes.</p>
+
+<p>TACWIPES are designed to kill germs, sooth and prevent skin infection and refresh and rejuvinate.</p>
+
+<p>When the wipes are gone the container provides multi-purpose water tight storage.  Everything you take with you should have a purpose.</p>
+
+<p>Wipes measure 5 inches x 8 inches.</p>
+
+<p>35 wipes per container.</p>
 
 
 
