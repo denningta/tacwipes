@@ -10,15 +10,24 @@ class UserController extends Controller
 {
     public function store()
     {
-        $user = new User();
+        try {
+            $user = new User();
 
-        $user->name = 'default';
-        $user->email = request('email');
-        $user->password = 'default';
+            $user->name = 'default';
+            $user->email = request('email');
+            $user->password = 'default';
 
-        $user->save();
+            $user->save();
 
-        return redirect('/');
+            return redirect('/');
+
+        } catch (Exception $e) {
+            return redirct('/');
+
+        }
+
+
+
 
     }
 
